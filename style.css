@@ -128,8 +128,10 @@ hr{
     flex-direction: column;
     background: #cacaca;
     border-radius:1vh;
+    transition: 200ms;
 }
 .mealCard:hover{
+    scale: 1.01;
     background-color: rgb(214, 214, 214);
     box-shadow:5px 5px 17px #a5a5a5b2,
              -5px -5px 17px #e7e7e7;
@@ -150,17 +152,16 @@ hr{
     font-size: 1.2rem;
     margin: 1vh 0 2vh 0;
     color: white;
-    height: 8vh;
-    width: 10.5vw;
+    height: 50px;
+    width: 190px;
     border: none;     
     border-radius: 5vh;
     background-color: #ee310b;
     cursor: pointer;
+    transition: 300ms;
 }
 .getRecipe:hover{
-    height: 8.5vh;
-    width: 10.8vw;
-    transition: 400ms;
+    scale: 1.05;
     background-color: #ff2a00;
 }
 
@@ -257,20 +258,6 @@ hr{
 @media screen and (min-width:768px){
     .mealDetails{
         width: 700px;
-    }
-    .getRecipe{
-    font-size: 1.2rem;
-    margin: 1vh 0 2vh 0;
-    color: white;
-    height: 8vh;
-    width: 90vw;
-    border: none;     
-    border-radius: 5vh;
-    background-color: #ee310b;
-    cursor: pointer;
-    }
-    .mealCard{
-        margin:0 0 5vh 0;
     }
 }
 
