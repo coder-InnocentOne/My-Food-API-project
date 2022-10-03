@@ -269,5 +269,8 @@ hr{
     background-color: #ee310b;
     cursor: pointer;
     }
+    .mealCard{
+        margin:0 0 5vh 0;
+    }
 }
 
