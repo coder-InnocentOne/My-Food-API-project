@@ -22,7 +22,7 @@ function getMealList(){
         if(data.meals){
             data.meals.forEach(meals => {
                 html +=`
-                <div id="mealCard" data-id="${meals.idMeal}">
+                <div class="mealCard" data-id="${meals.idMeal}">
                     <div class="mealImg">
                       <img src="${meals.strMealThumb}" id="mealCard-img"/>
                     </div>
